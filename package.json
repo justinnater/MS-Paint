@@ -6,13 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint './src/**/*.{js,jsx,ts,tsx}' --fix"
   },
   "dependencies": {
-    "solid-js": "^1.8.20"
+    "solid-js": "^1.8.20",
+    "solid-styled-components": "^0.28.5"
   },
   "devDependencies": {
-    "eslint": "^9.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "8.55.x",
     "eslint-plugin-solid": "^0.14.3",
     "typescript": "^5.5.3",
     "vite": "^5.4.1",
