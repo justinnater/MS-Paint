@@ -1,9 +1,20 @@
 import * as Styled from "./App.styled";
+import { TopBar } from "./Components/TopBar/TopBar.tsx";
+import { ToolBar } from "./Components/ToolBar/ToolBar.tsx";
+import { ColorBar } from "./Components/ColorBar/ColorBar.tsx";
+import { HelpBar } from "./Components/HelpBar/HelpBar.tsx";
+import { Workspace } from "./Components/Workspace/Workspace.tsx";
 
 const App = () => {
     return (
         <Styled.Container>
-            Blabla
+            <TopBar />
+            <Styled.SubContainer>
+                <ToolBar />
+                <Workspace />
+            </Styled.SubContainer>
+            <ColorBar />
+            <HelpBar />
         </Styled.Container>
     );
 }
