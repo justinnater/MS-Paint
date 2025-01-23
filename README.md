@@ -1,17 +1,20 @@
 # Old-School Microsoft Paint in SolidJS
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
+![SolidJS](https://img.shields.io/badge/SolidJS-20232A?style=for-the-badge&logo=SolidJS&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=TypeScript&logoColor=white)
+![Microsoft](https://img.shields.io/badge/Microsoft-666666?style=for-the-badge&logo=Microsoft&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox%20Browser&logoColor=white)
+
 
 This project is a demo of recreating the old-school Microsoft Paint using SolidJS and TypeScript, bootstrapped with Vite.
+
+⚠️ This project has only been tested on Firefox and may not work as expected on other browsers.
 
 ## Setup
 
 To install the necessary dependencies, run:
 
-```bash
-npm install
-# or if you prefer:
-# pnpm install
-# yarn install
-```
+### `npm install`
 
 ## Available Scripts
 

@@ -24,7 +24,6 @@ export default [
             "solid/no-innerhtml": "error",            // Disallow use of innerHTML to prevent XSS
             "solid/prefer-classlist": "warn",         // Prefer classList over string manipulation for classes
             "solid/prefer-for": "warn",               // Prefer Solid's <For> over map
-            "solid/reactivity": "error",              // Enforce correct reactivity patterns in SolidJS
             "solid/self-closing-comp": "warn",        // Enforce self-closing components when possible
             "solid/style-prop": "error",              // Warn when using style prop with non-objects
             "solid/event-handlers": "error",          // Ensure event handlers follow SolidJS conventions

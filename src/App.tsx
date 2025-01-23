@@ -4,6 +4,7 @@ import { ToolBar } from "./Components/ToolBar/ToolBar.tsx";
 import { ColorBar } from "./Components/ColorBar/ColorBar.tsx";
 import { HelpBar } from "./Components/HelpBar/HelpBar.tsx";
 import { Workspace } from "./Components/Workspace/Workspace.tsx";
+import { Dialog } from "./Components/Dialog/Dialog.tsx";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             </Styled.SubContainer>
             <ColorBar />
             <HelpBar />
+            <Dialog />
         </Styled.Container>
     );
 }

@@ -10,5 +10,3 @@ export const theme = {
     }
 };
 
-// Infer the type of the theme
-export type ThemeType = typeof theme;

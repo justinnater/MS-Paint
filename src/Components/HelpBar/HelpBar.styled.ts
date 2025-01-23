@@ -1,6 +1,7 @@
 import { styled } from "solid-styled-components";
 
 export const Container = styled.div(({ theme }) => ({
+    position: "absolute",
     width: "100%",
     height: "23px",
     backgroundColor: theme.colors.primary,

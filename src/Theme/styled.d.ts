@@ -1,7 +1,18 @@
-import { ThemeType } from "./Theme";
+// import original module declarations
 import "solid-styled-components";
+import { DefaultTheme } from "solid-styled-components";
 
-// Extend the DefaultTheme interface to match the inferred theme type
+// and extend them!
 declare module "solid-styled-components" {
-    export interface DefaultTheme extends ThemeType {}
+    export interface DefaultTheme {
+        colors: {
+            primary: string;
+            black: string;
+        }
+        button: {
+            light: string;
+            normal: string;
+            dark: string;
+        }
+    }
 }

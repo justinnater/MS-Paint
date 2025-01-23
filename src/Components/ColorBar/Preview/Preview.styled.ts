@@ -6,14 +6,13 @@ export const Container = styled.div(({ theme }) => ({
     height: "30px",
     bottom: "23px",
     borderTop: `1px solid ${theme.button.normal}`,
-    borderLeft: `1px solid ${theme.button.light}`,
     borderRight: `1px solid ${theme.button.light}`,
     borderBottom: `1px solid ${theme.button.normal}`,
     boxShadow: `1px 1px 0px ${theme.button.dark} inset`,
     backgroundColor: theme.button.light,
 }));
 
-export const Block = styled.div<Point2D & { color: string }>(({ theme, x, y, color }) => ({
+export const Block = styled.div<Point2D & { color: string }>(({ x, y, color }) => ({
     position: "absolute",
     left: `${x}px`,
     top: `${y}px`,

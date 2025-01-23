@@ -1,6 +1,7 @@
 import { styled } from "solid-styled-components";
 
 export const Container = styled.div(({ theme }) => ({
+    position: "absolute",
     width: "100%",
     height: "47px",
     backgroundColor: theme.colors.primary,
@@ -12,6 +13,7 @@ export const Container = styled.div(({ theme }) => ({
     paddingBottom: "8px",
     paddingLeft: "2px",
     boxSizing: "border-box",
+    overflow: "hidden",
 }));
 
 export const Content = styled.div(() => ({
@@ -25,11 +27,11 @@ export const Content = styled.div(() => ({
     borderRight: "1px solid #fff",
 }));
 
-export const List = styled.div(({ theme }) => ({
+export const List = styled.div(() => ({
     position: "relative",
     display: "grid",
     gridTemplateColumns: "repeat(14, 15px)",
     columnGap: "1px",
     rowGap: "2px",
-    width: "50px", // Adjust based on the number of columns/colors
+    width: "50px",
 }));
