@@ -10,6 +10,10 @@ This project is a demo of recreating the old-school Microsoft Paint using SolidJ
 
 ⚠️ This project has only been tested on Firefox and may not work as expected on other browsers.
 
+## Demo
+
+Check out the live demo here: [MS-Paint Demo](https://justinnater.github.io/MS-Paint/)
+
 ## Setup
 
 To install the necessary dependencies, run:
